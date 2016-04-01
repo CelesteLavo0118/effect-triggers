@@ -60,7 +60,7 @@ div {
   transition: all .3s linear;
 }
 
-.btn-slide{
+.btn-slide {
   right: 50px;
 }
 
@@ -76,7 +76,7 @@ div {
   text-align: center;
 }
 
-.collapse-panel{
+.collapse-panel {
   max-height: 0;
   transition: .2s linear;
 }
