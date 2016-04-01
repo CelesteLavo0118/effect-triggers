@@ -126,7 +126,7 @@ div {
   border: 1px solid mediumpurple;
   overflow: hidden;
   color: mediumpurple;
-  animation: expand .3s forward ease-out;
+  animation: expand .3s forwards ease-out;
 }
 
 @keyframes expand{
