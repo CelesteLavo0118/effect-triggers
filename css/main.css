@@ -130,6 +130,7 @@ div {
 }
 
 @keyframes expand {
+
   0% {
     max-height: 0;
   }
@@ -139,7 +140,8 @@ div {
   }
 }
 
-@keyframes bouce {
+@keyframes bounce {
+
   0% {
     right: -100px;
     top: 40px;
