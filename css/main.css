@@ -95,6 +95,16 @@ div {
   border-radius: 50%;
 }
 
+.bounce{
+  height: 100px;
+  right: -100px;
+  top: calc(50% - 50px);
+  width: 100px;
+  background-color: orange;
+  border-radius: 50%;
+  animation: bounce 1s both;
+}
+
 .list {
   bottom: 1em;
   margin: 0;
@@ -116,5 +126,40 @@ div {
   border: 1px solid mediumpurple;
   overflow: hidden;
   color: mediumpurple;
-  animation: expand .3s forward;
+  animation: expand .3s forward ease-out;
+}
+
+@keyframes expand{
+  0%{
+    max-height: 0;
+  }
+  100%{
+    max-height: 1.5em;
+  }
+}
+
+@keyframes bouce{
+  0%{
+    right: -100px;
+    top: 40px;
+  }
+  25%{
+    top: 10px;
+  }
+  40%{
+    top: 40px;
+  }
+  60%{
+    top: 10px;
+  }
+  70%{
+    top: 30px;
+  }
+  95%{
+    top: 10px;
+  }
+  100%{
+    right: 150px;
+    top: 40px;
+  }
 }
