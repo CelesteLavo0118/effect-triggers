@@ -129,7 +129,7 @@ div {
   animation: expand .3s forwards ease-out;
 }
 
-@keyframes expand{
+@keyframes expand {
   0%{
     max-height: 0;
   }
@@ -139,7 +139,7 @@ div {
   }
 }
 
-@keyframes bouce{
+@keyframes bouce {
   0%{
     right: -100px;
     top: 40px;
@@ -164,7 +164,7 @@ div {
   95%{
     top: 10px;
   }
-  
+
   100%{
     right: 150px;
     top: 40px;
